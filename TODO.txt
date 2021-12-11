@@ -1,1 +1,1 @@
-TODO: Remove box from .img__intro
+TODO: DONE Remove box from .img__intro 
