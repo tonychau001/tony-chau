@@ -117,7 +117,8 @@ h3 { font-size: var(--fs-h3);}
 }
 
 .section__subtitle--intro,
-.section__subtitle--about {
+.section__subtitle--about,
+.section__subtitle--history {
     background: var(--clr-accent);
     font-family: var(--ff-secondary);
     padding: .25em 1em;
@@ -309,6 +310,8 @@ header {
     }
 }
 
+/* About me */
+
 .about-me {
     max-width: 1000px;
     margin: 0 auto;
@@ -383,6 +386,53 @@ header {
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
     opacity: 0.5;
+}
+
+/* My history */
+
+.my-history {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.my-history__img {
+    box-shadow: var(--bs);
+}
+
+@media (min-width: 600px) {
+    .my-history {
+        display: grid;
+        width: max-content;
+        margin: 0 auto;
+        grid-template-columns: 300px 600px;
+        grid-template-areas: 
+            "img title"
+            "img subtitle"
+            "img text";
+        grid-column-gap: 2em;
+    }
+
+    .section__title--history {
+        grid-area: title;
+        text-align: right;
+    }
+
+    .section__subtitle--history {
+        grid-column: 1/-1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc(100% + 2em);
+        text-align: right;
+        padding-left: 1em;
+        /* padding-right: calc(200px + 4em); */
+    }
+
+    .my-history__img {
+        grid-area: img;
+        position: relative;
+        z-index: 2;
+    }
 }
 
 /* Footer */
