@@ -130,7 +130,7 @@ h3 { font-size: var(--fs-h3);}
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1em;
+    padding: 0 1em;
 }
 
 .nav__link--home {
@@ -399,12 +399,12 @@ header {
     box-shadow: var(--bs);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 900px) {
     .my-history {
         display: grid;
         width: max-content;
         margin: 0 auto;
-        grid-template-columns: 300px 600px;
+        grid-template-columns: 300px 500px;
         grid-template-areas: 
             "img title"
             "img subtitle"
@@ -480,6 +480,7 @@ header {
 }
 
 /* Individual portfolio item styles */
+
 .portfolio-item-individual {
     padding: 0 2em 2em;
     max-width: 1000px;
