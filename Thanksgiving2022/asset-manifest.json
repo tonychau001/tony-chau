@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.24ceddcc.css",
-    "main.js": "/static/js/main.7d8e81ad.js",
-    "index.html": "/index.html",
-    "main.24ceddcc.css.map": "/static/css/main.24ceddcc.css.map",
-    "main.7d8e81ad.js.map": "/static/js/main.7d8e81ad.js.map"
+    "main.css": "/Thanksgiving2022/static/css/main.24ceddcc.css",
+    "main.js": "/Thanksgiving2022/static/js/main.7d8e81ad.js",
+    "index.html": "/Thanksgiving2022/index.html",
+    "main.24ceddcc.css.map": "/Thanksgiving2022/static/css/main.24ceddcc.css.map",
+    "main.7d8e81ad.js.map": "/Thanksgiving2022/static/js/main.7d8e81ad.js.map"
   },
   "entrypoints": [
     "static/css/main.24ceddcc.css",
