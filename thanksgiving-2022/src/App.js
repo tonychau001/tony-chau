@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 import NavBar from './components/navbar';
 import Counters from './components/counters'
+import Bedrooms from './components/bedrooms';
 // import './App.css'
+
+// Childrens are called recursively
+// App - Constructor
+// App - Render
+// App - Mount - Ajax calls to server/db?
+// App - Update events
 
 export default class App extends Component {
     state = { 
@@ -18,6 +25,7 @@ export default class App extends Component {
             <React.Fragment>
                 <NavBar totalCounters={this.state.counters.filter(c => c.value > 0).length}/>
                 <main className="container">
+                    <Bedrooms />
                     <Counters 
                         counters={this.state.counters}
                         onReset={this.handleReset}
@@ -28,6 +36,8 @@ export default class App extends Component {
             </React.Fragment>
         );
     }
+
+    componentDidMount
 
     handleIncrement = counter => {
         // console.log('Increment Clicked', this.state.count);
