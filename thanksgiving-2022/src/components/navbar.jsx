@@ -5,10 +5,10 @@ export default class NavBar extends Component {
         return (
             <nav className="navbar navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="www.google.com">Navbar
-                        <span className="badge badge-pill badge-secondary">
+                    <a className="navbar-brand" href="www.google.com">Thanksgiving 2022
+                        {/* <span className="badge badge-pill badge-secondary">
                             {this.props.totalCounters}
-                        </span>
+                        </span> */}
                     </a>
                 </div>
             </nav>

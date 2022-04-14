@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import NavBar from './components/navbar';
 import Counters from './components/counters'
 import Bedrooms from './components/bedrooms';
+import { Chart } from './components/chart';
 // import './App.css'
 
 // Childrens are called recursively
@@ -23,8 +24,10 @@ export default class App extends Component {
     render() { 
         return (   
             <React.Fragment>
-                <NavBar totalCounters={this.state.counters.filter(c => c.value > 0).length}/>
+                <NavBar />
+                {/* <NavBar totalCounters={this.state.counters.filter(c => c.value > 0).length}/> */}
                 <main className="container">
+                    <Chart />
                     <Bedrooms />
                     <Counters 
                         counters={this.state.counters}
