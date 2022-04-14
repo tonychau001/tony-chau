@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/Thanksgiving2022/static/css/main.24ceddcc.css",
-    "main.js": "/Thanksgiving2022/static/js/main.7d8e81ad.js",
+    "main.css": "/Thanksgiving2022/static/css/main.367dbba6.css",
+    "main.js": "/Thanksgiving2022/static/js/main.6e585e3c.js",
+    "static/media/redArrow.png": "/Thanksgiving2022/static/media/redArrow.6434a316dd47df303885.png",
     "index.html": "/Thanksgiving2022/index.html",
-    "main.24ceddcc.css.map": "/Thanksgiving2022/static/css/main.24ceddcc.css.map",
-    "main.7d8e81ad.js.map": "/Thanksgiving2022/static/js/main.7d8e81ad.js.map"
+    "main.367dbba6.css.map": "/Thanksgiving2022/static/css/main.367dbba6.css.map",
+    "main.6e585e3c.js.map": "/Thanksgiving2022/static/js/main.6e585e3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.24ceddcc.css",
-    "static/js/main.7d8e81ad.js"
+    "static/css/main.367dbba6.css",
+    "static/js/main.6e585e3c.js"
   ]
 }
